@@ -20,6 +20,8 @@ public class TwoDarrays {
         //three ways to output this 
         for(int row = 0 ; row<mat.length ; row ++){
             for(int col = 0 ; col<mat[row].length ; col++){
+                System.out.println(row);
+                System.out.println(col);
                 System.out.println(mat[row][col]);
 
             }
@@ -27,14 +29,15 @@ public class TwoDarrays {
         }
 
         //second way
-        for(int i =0 ; i<mat.length; i++){
-            System.out.print(Arrays.toString(mat[i]));
-        }
+        // for(int i =0 ; i<mat.length; i++){
+        //     System.out.println(Arrays.toString(mat[i]));
+            
+        // }
 
         //third way
-        for(int[] x : mat){
-            System.out.println(Arrays.toString(x));
-        }
+        // for(int[] x : mat){
+        //     System.out.println(Arrays.toString(x));
+        // }
 
         
     }
